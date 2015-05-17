@@ -1,6 +1,6 @@
 {
   "name": "home-or-tmp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the user home directory with fallback to the system temp directory",
   "license": "MIT",
   "repository": "sindresorhus/home-or-tmp",
