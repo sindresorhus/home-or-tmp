@@ -28,12 +28,14 @@
     "path",
     "tmp",
     "temp",
+    "temporary",
     "fallback",
-    "graceful"
+    "graceful",
+    "userprofile"
   ],
   "dependencies": {
-    "os-tmpdir": "^1.0.1",
-    "user-home": "^1.1.1"
+    "os-homedir": "^1.0.0",
+    "os-tmpdir": "^1.0.1"
   },
   "devDependencies": {
     "ava": "0.0.4"
