@@ -1,8 +1,6 @@
-'use strict';
-var test = require('ava');
-var homeOrTmp = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(homeOrTmp.length > 0);
-	t.end();
+test(t => {
+	t.true(m.length > 0);
 });
