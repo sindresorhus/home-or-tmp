@@ -10,10 +10,10 @@
     "url": "sindresorhus.com"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "ava"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -33,11 +33,8 @@
     "graceful",
     "userprofile"
   ],
-  "dependencies": {
-    "os-homedir": "^1.0.0",
-    "os-tmpdir": "^1.0.1"
-  },
   "devDependencies": {
-    "ava": "*"
+    "ava": "*",
+    "xo": "*"
   }
 }
