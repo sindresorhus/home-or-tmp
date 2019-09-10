@@ -8,7 +8,7 @@ Useful in cases where the home directory either isn't set or doesn't exist.
 ## Install
 
 ```
-$ npm install --save home-or-tmp
+$ npm install home-or-tmp
 ```
 
 
@@ -27,6 +27,14 @@ console.log(homeOrTmp);
 ```
 
 
-## License
+---
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+<div align="center">
+	<b>
+		<a href="https://tidelift.com/subscription/pkg/npm-home-or-tmp?utm_source=npm-home-or-tmp&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
+	</b>
+	<br>
+	<sub>
+		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
+	</sub>
+</div>
