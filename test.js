@@ -1,8 +1,8 @@
 import path from 'path';
 import test from 'ava';
-import m from './';
+import homeOrTmp from '.';
 
-test(t => {
-	t.true(m.length > 0);
-	t.true(path.isAbsolute(m));
+test('main', t => {
+	t.true(homeOrTmp.length > 0);
+	t.true(path.isAbsolute(homeOrTmp));
 });
