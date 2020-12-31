@@ -1,4 +1,4 @@
-# home-or-tmp [![Build Status](https://travis-ci.org/sindresorhus/home-or-tmp.svg?branch=master)](https://travis-ci.org/sindresorhus/home-or-tmp)
+# home-or-tmp
 
 > Get the user home directory with fallback to the system temp directory
 
