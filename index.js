@@ -1,4 +1,6 @@
-'use strict';
-const os = require('os');
+import {homedir, tmpdir} from 'os';
 
-module.exports = os.homedir() || os.tmpdir();
+// eslint-disable-next-line unicorn/prevent-abbreviations
+const homeOrTemp = homedir() || tmpdir();
+
+export default homeOrTemp;

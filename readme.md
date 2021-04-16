@@ -4,28 +4,25 @@
 
 Useful in cases where the home directory either isn't set or doesn't exist.
 
-
 ## Install
 
 ```
 $ npm install home-or-tmp
 ```
 
-
 ## Usage
 
 ```js
-const homeOrTmp = require('home-or-tmp');
+import homeOrTemp from 'home-or-tmp';
 
-console.log(homeOrTmp);
+console.log(homeOrTemp);
 //=> '/Users/sindresorhus'
 
 // And if there is no home directory:
 
-console.log(homeOrTmp);
+console.log(homeOrTemp);
 //=> '/var/folders/m3/5574nnhn0yj488ccryqr7tc80000gn/T'
 ```
-
 
 ---
 

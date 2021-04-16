@@ -4,13 +4,16 @@
 	"description": "Get the user home directory with fallback to the system temp directory",
 	"license": "MIT",
 	"repository": "sindresorhus/home-or-tmp",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": "./index.js",
 	"engines": {
-		"node": ">=8"
+		"node": ">=12"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -32,7 +35,7 @@
 		"graceful"
 	],
 	"devDependencies": {
-		"ava": "^2.3.0",
-		"xo": "^0.24.0"
+		"ava": "^3.15.0",
+		"xo": "^0.38.2"
 	}
 }
